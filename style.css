@@ -45,7 +45,7 @@ a{
   justify-content: center;
   align-items: center;
   list-style-type: none;
-  gap: 1.5rem;
+  gap: 5rem;
 }
 
 .navInfo ul li a{
@@ -108,8 +108,8 @@ a{
 }
 
 .wrapper {
-  width: 1000px;
-  height: 85vh;
+  width: 1200px;
+  height: 60vh;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -289,3 +289,63 @@ a{
 #page-header.blog-header{
   background-image: url(img/banner/b19.jpg);
 }
+
+
+/*CHECK YOUR URL SECTION*/
+
+.container_url{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  height: 100%;
+  margin-top: 0;
+}
+.container_url .left{
+  width: 50%;
+}
+.container_url .left h1{
+  padding-bottom: 1.5rem;
+  padding-left: 10rem;
+}
+.container_url .left span{
+  color: #ff322e;
+}
+.container_url .left button{
+  font-size: 1.5rem;
+  margin-left: 25rem;
+  margin-top: 4rem;
+  background-color:transparent;
+  padding: 5px 5px;
+  border: solid black;
+  border-radius: 12%;
+}
+.container_url .left button:hover{
+  color:aliceblue;
+  background-color: #ff322e;
+}
+.container_url .left p{
+  padding-left: 10rem;
+  padding-right: 5rem;
+  font-weight: 600;
+  font-size: large;
+}
+.container_url .right{
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.container_url .right img{
+  height: 500px;
+  width: auto;
+  padding-left: 7rem;
+}
+
+.container_link{
+  justify-content: center;
+  align-content: center;
+  background-color: #ff322e;
+  height: 500px;
+}
+
+/*CHECK YOUR URL SECTION*/

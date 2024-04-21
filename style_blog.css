@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap');
+
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: "Bona Nova", serif;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
@@ -44,7 +45,7 @@ section{
 }
 
 a{
-    color: #fff;
+    color:black;
 }
 
 /* Header */
@@ -100,7 +101,7 @@ header.shadow .logo{
 .home{
     width: 100%;
     min-height: 440px;
-    background: url("images/banner2.png");
+    background: url("/assets/images/banner2.png");
     display: grid;
     justify-content: center;
     align-items: center;
