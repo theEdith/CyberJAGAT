@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CyberJAGAT - EmailCheck</title>
+    <link rel="stylesheet" href="checkEmail.css " />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="logoContainer">
+        <img src="./assets/images/logoImg.png" alt="logo" />
+      </div>
+      <div class="navInfo">
+        <ul>
+          <li><a href="news.html">News</a></li>
+          <li><a href="index_blog.html">Blogs</a></li>
+          <li><a href="education.html">Education</a></li>
+        </ul>
+      </div>
+      <div class="navLinks">
+        <ul>
+          <li>Chatbot</li>
+          <li>
+            <button class="button" id="aboutUsBtn">
+              <a href="aboutUs.html">About Us</a>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- hero section -->
+    <div class="mainContainer">
+      <div class="wrapper">
+        <div class="checkEmailContainer">
+          <h1>Have I been breached?</h1>
+          <p>Check if your email address is in a data breach</p>
+          <div class="inputContainer">
+            <input type="text" placeholder="Enter your email address" id="userEmailInput"/>
+            <button id="checkEmailBtn">Check</button>
+          </div>
+          <div class="breachResultContainer">
+            <p class="resultPara">Result : </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="checkEmail.js"></script>
+  </body>
+</html>
