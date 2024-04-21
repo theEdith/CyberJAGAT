@@ -1,8 +1,3 @@
-const navbar = document.querySelector('.navbar');
-window.onscroll = () => {
-    if (window.scrollY > 300) {
-        navbar.classList.add('nav-active');
-    } else {
-        navbar.classList.remove('nav-active');
-    }
+document.getElementById("button").onclick = function () {
+    location.href = "www.http://127.0.0.1:5500/aboutUs.html.com";
 };
