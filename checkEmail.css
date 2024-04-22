@@ -107,15 +107,15 @@ a{
     height: 100%;
 }
 
-/* .wrapper{
-    width: 1200px;
+ .wrapper{
+    width: 100%;
     margin: 0 auto;
     height: 100%;
-} */
+} 
 
 .checkEmailContainer{
     /* height: 90vh; */
-
+    width: 100%;
     padding: 3rem;
     display: flex;
     flex-direction: column;
