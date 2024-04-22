@@ -318,6 +318,7 @@ a{
 .container_url .left h1{
   padding-bottom: 1.5rem;
   padding-left: 10rem;
+  font-size: 5rem;
 }
 .container_url .left span{
   color: #ff322e;
@@ -329,7 +330,8 @@ a{
   background-color:transparent;
   padding: 5px 5px;
   border: solid black;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 10px 10px 10px 10px;
+  cursor: pointer;
 }
 .container_url .left button:hover{
   color:aliceblue;
@@ -364,7 +366,7 @@ a{
 }
 
 .container_link h1{
-  font-size: 6rem;
+  font-size: 4rem;
   color: white;
 }
 
