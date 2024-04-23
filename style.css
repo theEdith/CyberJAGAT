@@ -402,3 +402,62 @@ a{
 }
 
 /*CHECK YOUR URL SECTION*/
+
+
+
+
+
+/* Join our community */
+
+.communitySection{
+  margin-bottom: 3rem;
+  margin-top: -2rem;
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+  /* height: 60vh; */
+}
+.communityContainer{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  overflow-y: hidden;
+  gap: 3rem;
+  margin-top: -4rem;
+  /* margin-bottom: 2rem; */
+}
+
+.communityLeftContainer{
+display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-direction: column;
+}
+
+.communityLeftContainer h1{
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.communityLeftContainer span{
+  color:#ff322e;
+}
+.communityLeftContainer p{
+  font-size: 1.3rem;
+}
+
+.communityContainer button{
+  /* width: 4rem; */
+  padding: 10px 40px;
+  font-size: 1.5rem;
+}
+
+.communityRightContainer{
+  width: 450px;
+
+}
+
+.communityRightContainer img{
+  width: 100%;
+}
