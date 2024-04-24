@@ -410,8 +410,9 @@ a{
 /* Join our community */
 
 .communitySection{
-  margin-bottom: 3rem;
-  margin-top: -2rem;
+  /* margin-bottom: 3rem; */
+  /* margin-top: -2rem; */
+  background-color: #f76463;
 }
 .wrapper{
   display: flex;
@@ -436,19 +437,23 @@ flex-direction: column;
 }
 
 .communityLeftContainer h1{
+  color: white;
   font-size: 3.5rem;
   font-weight: 600;
 }
 
 .communityLeftContainer span{
-  color:#ff322e;
+  color:black;
 }
 .communityLeftContainer p{
+  color: white;
   font-size: 1.3rem;
 }
 
 .communityContainer button{
   /* width: 4rem; */
+  background-color: black;
+  color: white;
   padding: 10px 40px;
   font-size: 1.5rem;
 }
@@ -460,4 +465,63 @@ flex-direction: column;
 
 .communityRightContainer img{
   width: 100%;
+}
+
+/* home page resources container */
+
+.home_card_container{
+  /* background-color: #f76463; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  /* gap: 1rem; */
+  justify-content:center;
+  width: 100%;
+  align-items: center;
+  padding-left: 60px;
+
+}
+
+.home_card{
+  width: 90%;
+  padding: 20px;
+  background-color: #e1e1e1;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.resources_image_container{
+  width: 100%;
+}
+
+.resources_image_container img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.read_more{
+  text-align: center;
+}
+
+.read_more button{
+  background-color: black;
+  outline: none;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
+.read_more button a{
+  font-size: 1.2rem;
+  color: white;
+  
+  /* padding: 2rem; */
+  border-radius: 10px;
+}
+
+.read_more h4 a:hover{
+  cursor: pointer;
 }
