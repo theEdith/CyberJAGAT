@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap');
 
 
@@ -10,7 +9,7 @@
 }
 
 body {
-  font-family: "Bona Nova", serif;
+  font-family: sans-serif;
 }
 
 .navbar {
@@ -49,7 +48,7 @@ a{
 }
 
 .navInfo ul li a{
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
   font-weight: 800;
   cursor: pointer;
@@ -68,7 +67,7 @@ a{
 }
 
 .navLinks ul li {
-  font-weight: 800;
+  font-weight: 600;
   font-size: 1.1rem;
   text-transform: uppercase;
   cursor: pointer;
@@ -109,11 +108,12 @@ a{
 
 .wrapper {
   width: 1200px;
-  height: 60vh;
+  height: 70vh;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow-y: hidden;
 }
 
 .leftHeroSection {
@@ -123,19 +123,30 @@ a{
   /* margin-left: 20px; */
   gap: 2rem;
   padding: 15px;
+  width: 70%;
+  margin-right: ;
 }
 
 .leftHeroSection h1 {
   font-size: 4rem;
 }
+.leftHeroSection h3{
+  font-size: 2rem;
+  font-weight: 600;
+}
+.leftHeroSection h3 span{
+  color:#f76463;
+}
 
 .leftHeroSection h1 span {
   color: #ff322e;
+  font-weight: 500;
 }
 
 .leftHeroSection p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 500;
+  
 }
 
 .trySection {
@@ -200,16 +211,19 @@ a{
   align-items: center;
   height: 300px;
   gap: 1.4rem;
+  
 }
 
 .complaintContainer h1 {
   font-size: 3rem;
   color: white;
+  overflow-y: hidden;
 }
 
 .complaintContainer p {
   font-size: 2rem;
   color: white;
+  overflow-y: hidden;
 }
 
 .complaintContainer button {
@@ -219,10 +233,11 @@ a{
   color: white;
   font-size: 1rem;
   font-weight: 500;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: black;
   transition: 0.4s ease-in-out;
   cursor: pointer;
+  overflow-y: hidden;
 }
 
 .complaintContainer button:hover {
@@ -233,6 +248,9 @@ a{
 .whyContainer{
   margin-top: 40px;
   padding: 20px;
+}
+.whyContainer span{
+  color: #f76463;
 }
 
 .heading{
@@ -247,7 +265,8 @@ a{
   flex-direction: row;
   justify-content: space-evenly;
   gap: 2rem;
-  align-items: center;
+  align-items:normal;
+  
 }
 
 .reason{
@@ -255,13 +274,17 @@ a{
   width: 20%;
   margin-bottom: 20px;
   text-align: center;
+  background-color: #f76463;
+  border-radius: 30px 0px 10px 0px;
+  padding: 10px 20px 10px 20px;
 }
 
 .reason p{
   margin-top: 15px;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 600;
-  text-align: justify;
+  text-align:center;
+  color: white;
 }
 
 .faqs{
@@ -442,7 +465,7 @@ padding-top: 0px;
   width: 80%;
   padding: 40px 50px 20px 50px;
   border-radius: 20px;
-   background-color:#dcdcdc; 
+   background-color:#eeecec; 
   margin-bottom: 40px;
   gap: 20px;
    
@@ -490,7 +513,7 @@ padding-top: 0px;
 .wrapper{
   display: flex;
   justify-content: center;
-  /* height: 60vh; */
+  height: 55vh;
 }
 .communityContainer{
   display: flex;
@@ -504,6 +527,7 @@ padding-top: 0px;
 
 .communityLeftContainer{
 display: flex;
+width: 40%;
 justify-content: center;
 align-items: flex-start;
 flex-direction: column;
