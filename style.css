@@ -329,14 +329,17 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: bisque;
+  background-color:white;
   height: 70%;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 70px;
+  margin-bottom: 70px;
   padding: 0;
 }
 .container_url .left{
   width: 50%;
+}
+.container_url .left p span{
+  font-weight: 700;
 }
 .container_url .left h1{
   padding-bottom: 1.5rem;
@@ -363,8 +366,10 @@ a{
 .container_url .left p{
   padding-left: 10rem;
   padding-right: 5rem;
-  font-weight: 600;
+  font-weight: 500;
   font-size: large;
+  line-height: 35px;
+  font-size: 22px;
 }
 .container_url .right{
   width: 50%;
@@ -456,6 +461,7 @@ padding-top: 0px;
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 30px;
+
  }
  .card{
   display: flex;
@@ -465,7 +471,7 @@ padding-top: 0px;
   width: 80%;
   padding: 40px 50px 20px 50px;
   border-radius: 20px;
-   background-color:#eeecec; 
+   background-color:#ecdcdc; 
   margin-bottom: 40px;
   gap: 20px;
    
@@ -522,7 +528,7 @@ padding-top: 0px;
   align-items: baseline;
   overflow-y: hidden;
   gap: 3rem;
-  margin-top: -4rem;
+  margin-top: -10rem;
   /* margin-bottom: 2rem; */
 }
 
@@ -583,7 +589,7 @@ flex-direction: column;
 .home_card{
   width: 90%;
   padding: 20px;
-  background-color: #e1e1e1;
+  background-color: #e0bdbd;
   border-radius: 10px;
   margin-bottom: 30px;
 }

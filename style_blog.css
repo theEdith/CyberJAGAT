@@ -302,6 +302,7 @@ footer{
     position: relative;
     color: #fff;
     margin-bottom: 15px;
+    overflow-y: hidden;
 }
 
 .footer-container h2::before{
