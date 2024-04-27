@@ -1,4 +1,4 @@
-const url = document.getElementsByClassName(".urlInput").value;
+const url = document.querySelector('#urlInput').value;
 const checkUrlButton = document.getElementById("checkbutton_url");
 const resultField = document.querySelector("#result_url");
 

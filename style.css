@@ -35,7 +35,8 @@ a{
 }
 
 .logoContainer img {
-  width: 100%;
+  width: 130px;
+  overflow-x: hidden;
   /* margin-top: 20px; */
 }
 
