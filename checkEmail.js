@@ -29,14 +29,14 @@ checkBtn.addEventListener('click', () => {
     checkEmailBreached(userEmail)
     .then(isBreached => {
         if (isBreached) {
-            resultPara.innerText = "Bad news";
+            resultPara.innerText = "Oops! Your email has been breached.";
             // resultPara.classlist.add('.active');
-            console.log('Email has been breached');
+            // console.log('Email has been breached');
 
             // Handle breached email case
         } else {
-            console.log('Email has not been breached');
-            resultPara.innerText = "Good news";
+            // console.log('Email has not been breached');
+            resultPara.innerText = "Yippie! Your email has not been breached.";
             // resultPara.classlist.add('.active');
             // Handle non-breached email case
         }
